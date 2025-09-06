@@ -22,6 +22,8 @@ cd Coffee-Chatbot
 
 ![haha](image.png)
 
+![alt text](image-1.png)
+
 #### 2. Install dependencies
 
 Make sure Python 3.x is installed. Then install required packages:
