@@ -1,0 +1,402 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up",
+        "Howdy"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Welcome to our coffee shop!",
+        "Good day! How can I assist you today?",
+        "Hello! Ready for some great coffee?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Have a great day",
+        "Take care",
+        "Catch you later",
+        "Until next time",
+        "Farewell"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Thank you for choosing us! Have a wonderful day!",
+        "Take care and see you next time!",
+        "Goodbye! Enjoy your coffee!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Much appreciated",
+        "Thanks so much",
+        "I appreciate it",
+        "Cheers"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're very welcome!",
+        "Glad I could assist you!",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "Show me your menu",
+        "What's on the menu?",
+        "What drinks do you have?",
+        "What food do you serve?",
+        "What's available?",
+        "Menu please"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea",
+        "Our menu includes various coffee drinks, teas, pastries, and light snacks",
+        "We offer espresso, cappuccino, latte, americano, various teas, muffins, and sandwiches",
+        "Check out our specialty coffees, herbal teas, fresh pastries, and healthy snacks!"
+      ]
+    },
+    {
+      "tag": "coffee_types",
+      "patterns": [
+        "What coffee do you have?",
+        "Coffee options",
+        "Types of coffee",
+        "What kind of coffee?",
+        "Coffee menu",
+        "Espresso drinks",
+        "Hot coffee",
+        "Cold coffee"
+      ],
+      "responses": [
+        "We have espresso, americano, cappuccino, latte, macchiato, and mocha",
+        "Our coffee selection includes hot and iced options: espresso-based drinks, drip coffee, and cold brew",
+        "Choose from our signature lattes, rich cappuccinos, bold americanos, or refreshing iced coffee",
+        "We serve premium espresso drinks, French press, pour-over, and seasonal coffee specialties"
+      ]
+    },
+    {
+      "tag": "tea_types",
+      "patterns": [
+        "What tea do you have?",
+        "Tea options",
+        "Types of tea",
+        "Tea menu",
+        "Herbal tea",
+        "Green tea",
+        "Black tea",
+        "Hot tea"
+      ],
+      "responses": [
+        "We offer black tea, green tea, herbal teas, and chai",
+        "Our tea selection includes Earl Grey, English Breakfast, chamomile, peppermint, and jasmine green tea",
+        "Choose from our premium loose-leaf teas: black, green, white, oolong, and herbal blends",
+        "We have traditional teas and specialty blends, served hot or iced"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "Do you have food?",
+        "What food do you serve?",
+        "Snacks",
+        "Pastries",
+        "Sandwiches",
+        "Breakfast",
+        "Lunch",
+        "Desserts",
+        "Something to eat"
+      ],
+      "responses": [
+        "Yes! We have fresh pastries, sandwiches, salads, and muffins",
+        "Our food menu includes croissants, bagels, paninis, wraps, and homemade cookies",
+        "We serve breakfast items, light lunches, fresh baked goods, and sweet treats",
+        "Try our artisan sandwiches, seasonal salads, flaky pastries, and decadent desserts"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "Payment methods",
+        "How can I pay?",
+        "Do you take Visa?",
+        "Apple Pay?",
+        "Contactless payment?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal",
+        "We take cash, credit cards, debit cards, Apple Pay, Google Pay, and contactless payments",
+        "Payment options include all major credit cards, mobile payments, and cash"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "Do you deliver?",
+        "Delivery time",
+        "Can you deliver to me?",
+        "Delivery options",
+        "How fast is delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "We offer same-day delivery within 5 miles, otherwise 2-4 business days",
+        "Local delivery is available within 30 minutes, shipping takes 2-4 days for other areas"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What time do you open?",
+        "When do you close?",
+        "What are your hours?",
+        "Are you open now?",
+        "Opening hours",
+        "Store hours",
+        "When are you open?",
+        "Business hours"
+      ],
+      "responses": [
+        "We're open Monday-Friday 6 AM to 8 PM, weekends 7 AM to 9 PM",
+        "Our hours are 6 AM - 8 PM on weekdays, 7 AM - 9 PM on weekends",
+        "We open early at 6 AM for your morning coffee and stay open until 8 PM (9 PM weekends)"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Where can I find you?",
+        "Location",
+        "Address",
+        "How do I get there?",
+        "Directions"
+      ],
+      "responses": [
+        "We're located at 123 Coffee Street, downtown area",
+        "You can find us at 123 Coffee Street, near the city center with plenty of parking",
+        "Visit us at 123 Coffee Street - we're the cozy spot with the red awning!"
+      ]
+    },
+    {
+      "tag": "reservations",
+      "patterns": [
+        "Can I make a reservation?",
+        "Do you take reservations?",
+        "Book a table",
+        "Reserve a spot",
+        "Table for two",
+        "Can I reserve?"
+      ],
+      "responses": [
+        "We operate on a first-come, first-served basis, but you can call ahead for large groups",
+        "No reservations needed! We have plenty of seating, but feel free to call for groups of 8+",
+        "Most seating is walk-in, but we can accommodate larger parties with advance notice"
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have wifi?",
+        "What's the wifi password?",
+        "Free wifi?",
+        "Internet access?",
+        "Can I use wifi?",
+        "Wireless internet?"
+      ],
+      "responses": [
+        "Yes! We have free wifi - password is 'CoffeeLovers123'",
+        "Free wifi available! Ask any staff member for the current password",
+        "Enjoy our complimentary high-speed wifi while you sip your coffee"
+      ]
+    },
+    {
+      "tag": "specials",
+      "patterns": [
+        "Any specials today?",
+        "Daily specials",
+        "What's on special?",
+        "Deals",
+        "Promotions",
+        "Discounts",
+        "Today's special"
+      ],
+      "responses": [
+        "Today's special is our seasonal pumpkin spice latte with a free muffin!",
+        "We have a buy-one-get-one-half-off deal on all pastries today",
+        "Check out our daily special board - today we're featuring our signature cold brew blend",
+        "Happy hour is 3-5 PM with 20% off all drinks!"
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "Do you have dairy-free options?",
+        "Gluten-free menu?",
+        "Vegan options?",
+        "Nut allergies",
+        "Lactose intolerant",
+        "Sugar-free?",
+        "Allergies",
+        "Dietary restrictions"
+      ],
+      "responses": [
+        "Yes! We have almond, oat, and soy milk, plus gluten-free pastries",
+        "We cater to all dietary needs with vegan, gluten-free, and sugar-free options",
+        "Our staff can help you find options for any dietary restrictions or allergies",
+        "We have plenty of dairy-free, gluten-free, and vegan choices clearly marked on our menu"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Make me laugh",
+        "Something funny",
+        "Joke please",
+        "Cheer me up"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "How does a penguin build its house? Igloos it together!",
+        "Why don't coffee shops ever get robbed? Because they know how to espresso themselves!",
+        "What's the best thing about Switzerland? I don't know, but the flag is a big plus."
+      ]
+    },
+    {
+      "tag": "weather_chat",
+      "patterns": [
+        "Nice weather today",
+        "It's raining",
+        "Hot outside",
+        "Cold day",
+        "Beautiful day",
+        "Terrible weather"
+      ],
+      "responses": [
+        "Perfect weather for a coffee! What can I get you?",
+        "A warm drink sounds perfect for this weather!",
+        "This weather calls for something refreshing - maybe an iced coffee?",
+        "Weather like this makes our cozy shop the perfect place to be!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "Great coffee!",
+        "Love this place",
+        "Best coffee shop",
+        "Amazing service",
+        "Delicious",
+        "Perfect",
+        "Excellent"
+      ],
+      "responses": [
+        "Thank you so much! We're thrilled you enjoyed it!",
+        "That means the world to us! Thanks for the kind words!",
+        "We're so happy you love coming here! You made our day!",
+        "Your feedback keeps us motivated to serve the best coffee in town!"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "This coffee is cold",
+        "Poor service",
+        "Not satisfied",
+        "Disappointed",
+        "Bad experience",
+        "Complaint"
+      ],
+      "responses": [
+        "I'm so sorry to hear that! Let me make this right for you immediately",
+        "We sincerely apologize. Please let us know how we can fix this",
+        "That's not the experience we want for you. How can we improve this right now?",
+        "We take all feedback seriously. Please speak with our manager to resolve this"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help me?",
+        "What can you do?",
+        "How can you help?",
+        "What are my options?",
+        "Show me what you can do",
+        "List of services",
+        "What can I ask you?",
+        "Commands",
+        "Options",
+        "What do you know?"
+      ],
+      "responses": [
+        "I can help you with: Menu items, Coffee & tea options, Food choices, Store hours, Location & directions, Payment methods, Delivery info, Daily specials, Dietary restrictions, WiFi details, Reservations, or just chat! What would you like to know?",
+        "Here's what I can assist you with: 🍵 Drinks menu, 🥐 Food options, 🕐 Opening hours, 📍 Location, 💳 Payment methods, 🚚 Delivery, 🎉 Daily specials, 🌱 Dietary needs, 📶 WiFi info, or general questions!",
+        "I'm here to help with all your coffee shop needs! Ask me about our menu, hours, location, specials, dietary options, or anything else coffee-related!",
+        "You can ask me about: Our coffee and tea selection, Food menu, Store information, Payment options, Delivery services, Current specials, Allergen-free options, WiFi access, or just have a friendly chat!"
+      ]
+    },
+    {
+      "tag": "options_list",
+      "patterns": [
+        "Show all options",
+        "Full list",
+        "Everything you can help with",
+        "Complete list of services",
+        "All categories",
+        "What topics can we discuss?",
+        "Full menu of help"
+      ],
+      "responses": [
+        "Here's everything I can help you with:\n\n🍵 **DRINKS**\n- Coffee types & varieties\n- Tea selection\n- Hot & cold beverages\n\n🥐 **FOOD**\n- Pastries & baked goods\n- Sandwiches & wraps\n- Breakfast & lunch items\n- Desserts & snacks\n\n🏪 **STORE INFO**\n- Opening hours\n- Location & directions\n- Contact information\n- Reservations\n\n💰 **SERVICES**\n- Payment methods\n- Delivery options\n- Daily specials\n- Promotions & deals\n\n🌱 **DIETARY**\n- Vegan options\n- Gluten-free choices\n- Dairy-free alternatives\n- Allergy information\n\n📱 **AMENITIES**\n- WiFi access\n- Seating availability\n- Parking info\n\n💬 **GENERAL**\n- Recommendations\n- Customer service\n- Feedback & complaints\n- Casual conversation\n\nJust ask me about any of these topics!"
+      ]
+    }
+  ]
+}
