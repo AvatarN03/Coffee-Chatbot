@@ -16,9 +16,11 @@ A friendly and modern **Coffee Shop Chatbot** created with Python’s Tkinter GU
 #### 1. Clone the project and navigate to the directory
 
 ```bash
-git clone <your-repo-url>
-cd coffee-shop-chatbot
+git clone https://github.com/AvatarN03/Coffee-Chatbot.git
+cd Coffee-Chatbot
 ```
+
+![haha](image.png)
 
 #### 2. Install dependencies
 
@@ -36,7 +38,7 @@ The first run will prompt NLTK to download required data:
 
 ```python
 import nltk
-nltk.download('punkt')
+nltk.download('punkt-tab')
 ```
 (Make sure you have internet access.)
 
