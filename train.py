@@ -1,13 +1,13 @@
 import json
-from nltk_utils import tokenize, stemming, bag_of_words
+from lib.nltk_utils import tokenize, stemming, bag_of_words
 import numpy as np
 import torch 
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 
-from model import NeuralNet
+from model.model import NeuralNet
 
-with open("intents.json", "r", encoding='utf-8') as f:
+with open("lib/intents.json", "r", encoding='utf-8') as f:
     intents = json.load(f) 
 
 # print(intents)
@@ -109,7 +109,7 @@ data = {
     "tags":tags
 }
 
-FILE = "data.pth"
+FILE = "model/data.pth"
 torch.save(data, FILE)
 
 print(f'training complete. file saved to {FILE}')

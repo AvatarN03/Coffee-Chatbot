@@ -1,17 +1,17 @@
 import random
 import json
 import torch
-from model import NeuralNet
-from nltk_utils import tokenize, bag_of_words
+from model.model import NeuralNet
+from lib.nltk_utils import tokenize, bag_of_words
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', 'r', encoding='utf-8') as f:
+with open('lib/intents.json', 'r', encoding='utf-8') as f:
     intents = json.load(f)
 
 
-FILE = 'data.pth'
+FILE = 'model/data.pth'
 data = torch.load(FILE)
 
 
@@ -30,7 +30,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Vaca"
+bot_name = "Leza"
 
 def get_response(msg):
     sentence = tokenize(msg)
